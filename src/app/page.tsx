@@ -1,3 +1,4 @@
+import Cartao from "./Components/Cartao";
 import Folha from "./Components/Folha";
 import Slider from "./Components/Slider";
 import styles from "./page.module.css";
@@ -14,12 +15,12 @@ export default function Home() {
         <Folha/>
       </div>
       <main className={styles.main}>
-        <div className={styles.cartao} ><a href="https://w.app/hdbpuy" > <img src="./cartao.png"></img></a></div>
+        <div className={styles.cartao} ><a href="https://w.app/hdbpuy" > <Cartao/></a></div>
         <Slider />
       </main>
       <footer className={styles.footer}>
         <h3>
-          Desenvolvido por <a>Agência Mórula</a>
+          Florianópolis/Sul da Ilha
         </h3>
       </footer>
     </div>
