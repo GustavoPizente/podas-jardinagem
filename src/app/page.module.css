@@ -16,7 +16,7 @@
 .header {
   width: 100%;
   height: 20vh;
-  font-family: "Junge";
+  font-family: "Junge", serif;
   font-weight: 50;
   font-size: 1.5vh;
   display: flex
