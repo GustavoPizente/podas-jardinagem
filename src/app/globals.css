@@ -1,3 +1,8 @@
+/* Swiper core styles */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
