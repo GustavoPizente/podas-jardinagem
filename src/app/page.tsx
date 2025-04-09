@@ -15,7 +15,9 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <div className={styles.cartao}>
+          
           <a href="https://w.app/hdbpuy">
+          
             {" "}
             <img src="./cartao.png"></img>
 

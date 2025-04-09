@@ -42,7 +42,7 @@
 }
 
 .cartao {
-
+  width: 90%;
   margin-bottom: 5%;
 }
 
@@ -55,6 +55,8 @@
   width: 100%;
   z-index: 1;
 }
+
+
 
 
 /*Efeitos de botão*/
@@ -130,7 +132,7 @@
 
   position: absolute;
   margin-top: 11%;
-  width: 15vh;
+  width: 12vh;
 }
 
 
