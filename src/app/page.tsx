@@ -34,10 +34,11 @@ export default function Home() {
           </a>
         </div>
         <Slider />
-      </main>
-      <footer className={styles.footer}>
+ <footer className={styles.footer}>
         <h3>Florianópolis/Sul da Ilha</h3>
       </footer>
+      </main>
+     
     </div>
   );
 }
