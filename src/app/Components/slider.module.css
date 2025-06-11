@@ -29,30 +29,34 @@
 
   @media (min-width: 700px) {
   .slideImg {
-    width: 30vh;
+    
+    width: 35vh;
   }
 }
 
 @media (min-width: 900px) {
   .slideImg {
-     height: 30vh;
+     height: 40vh;
+      width: 45vh;
   }
 }
 
 @media (min-width: 1100px) {
   .slideImg {
-    height: 30vh;
+    height: 35vh;
+    width: 50vh;
   }
 }
 
 @media (min-width: 1300px) {
   .slideImg {
      height: 30vh;
+     width: 55vh;
   }
 }
 @media (min-width: 1600px) {
   .slideImg {
-    height: 30vh;
-    width: 50vh;
+    height: 40vh;
+    width: 60vh;
   }
 }
