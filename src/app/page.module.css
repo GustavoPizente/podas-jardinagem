@@ -11,7 +11,7 @@
   display: flex
 ;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: white;
 }
 .header {
@@ -27,6 +27,11 @@
   margin-top: 8%;
   color: black;
 }
+@media (min-width: 900px) {
+  .header {
+    margin-top: 3%;
+  }
+}
 
 .header h1 {
   font-size: 4vh;
@@ -39,42 +44,56 @@
     flex-direction: column;
     align-items: center;
     height: 75vh;
+    overflow: hidden;
 }
 
 .cartao {
   width: 90%;
-  margin-bottom: 5%;
 }
 
-.cartao a {
-  display: flex;
-  justify-content: center;
-}
 
-.cartao img {
+
+.cartaoimg {
   width: 100%;
   z-index: 1;
 }
+
+  @media (min-width: 500px) {
+  .cartaoimg {
+    width: 60%
+  }
+}
 @media (min-width: 700px) {
-  .cartao img {
-    width: 70%;
+  .cartaoimg {
+    width: 50%;
+  }
+}
+@media (min-width: 700px) {
+  .cartaoimg {
+    width: 40%;
   }
 }
 
 @media (min-width: 900px) {
-  .cartao img {
+  .cartaoimg {
     width: 35%;
   }
 }
 
 @media (min-width: 1100px) {
-  .cartao img {
+  .cartaoimg {
     width: 35%;
   }
 }
 
 @media (min-width: 1300px) {
-  .cartao img {
+  .cartaoimg {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .cartaoimg {
     width: 20%;
   }
 }
@@ -83,8 +102,17 @@
 
 /*Efeitos de botão*/
 
-.buttonblur {
+.botao {
+  
   position: relative;
+  display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonblur {
+  position:absolute;
   overflow: hidden;
   color: white;
   background-color: #0ba52d80; 
@@ -99,6 +127,9 @@
   justify-content: center;
   z-index: 1;  
   padding: 0px;
+  width: 10vh;
+  height: 10vh;
+  
 
 }
 
@@ -150,45 +181,42 @@
 
 /*Efeitos de botão*/
 
-.imgwhats {
+.imgwhats { 
 
   position: absolute;
   margin-top: 11%;
-  width: 12vh;
+  width: 10vh;
+  height: 10vh;
+  z-index: 10;
 }
  
- @media (min-width: 700px) {
-  .imgwhats {
-    width: 14vh;
-    margin-top: 6%;
-}}
+ 
 
 @media (min-width: 900px) {
   .imgwhats {
-     width: 16vh;
      margin-top: 4%;
   }
 }
 
 @media (min-width: 1100px) {
   .imgwhats{
-    width: 22vh;
     margin-top: 6%;
   }
 }
 
 @media (min-width: 1300px) {
   .imgwhats {
-     width: 20vh;
-     margin-top: 8%;
+        margin-top: 4%;
   }
 }
 
 
 
+
+
 .footer {
  position: relative;
- bottom: 5%;
+ bottom: 7%;
   width: 100%;
   font-size: 1.5vh;
   font-family: "Junge", cursive;
@@ -196,4 +224,32 @@
   color: black;
   
 
+}
+@media (min-width: 700px) {
+  .footer {
+    bottom: 10%;
+  }
+}
+
+@media (min-width: 900px) {
+  .footer {
+    bottom: 15%;
+  }
+}
+@media (min-width: 1100px) {
+  .footer {
+    bottom: 7%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .footer {
+    bottom:5%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .footer {
+    bottom: 0%;
+  }
 }

@@ -18,7 +18,7 @@ export default function Slider() {
       autoplay={{ delay: 3000, disableOnInteraction: true }}
       className={styles.slider}
     >
-      <SwiperSlide>
+      <SwiperSlide className={styles.swiperslide}>
         <img src="/1.jpeg" alt="Imagem 1" className={styles.slideImg} />
       </SwiperSlide>
       <SwiperSlide>
