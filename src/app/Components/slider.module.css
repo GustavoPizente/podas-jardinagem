@@ -12,12 +12,13 @@
   }
   
   .slideImg {
-    width: 120%;
+    width: 127%;
     height: 35vh;
-    padding-left: 10%;
+    padding-left: 8%;
     object-fit: cover;
     margin: 5%;;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 99;
   }
 
 
